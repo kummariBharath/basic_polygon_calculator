@@ -22,7 +22,7 @@ class Rectangle:
         picture=""
         for _ in range(self.height):
             picture += "*" * self.width + "\n"
-        return picture 
+        return picture  
     def get_amount_inside(self,shape):
         fit_width=self.width//shape.width
         fit_height=self.height//shape.height
